@@ -15,7 +15,7 @@
             this.Configuration = builder.Build();
         }
 
-        public IConfigurationRoot Configuration { get; set; }
+        public IConfigurationRoot Configuration { get; set; } 
 
         // Entry point for the application.
         public static void Main(string[] args) => WebApplication.Run<Startup>(args);
