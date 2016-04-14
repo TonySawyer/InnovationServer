@@ -48,27 +48,32 @@
                                                           new TeacherMarkedAssessment()
                                                               {
                                                                   Title = "TMA01",
-                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764144"
+                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764144",
+                                                                  WordCountRequired = 250,
                                                               },
                                                           new TeacherMarkedAssessment()
                                                               {
                                                                   Title = "TMA02",
-                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764174"
+                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764174",
+                                                                  WordCountRequired = 250,
                                                               },
                                                           new TeacherMarkedAssessment()
                                                               {
                                                                   Title = "TMA03",
-                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764189"
+                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764189",
+                                                                  WordCountRequired = 250,
                                                               },
                                                           new TeacherMarkedAssessment()
                                                               {
                                                                   Title = "TMA04",
-                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764367"
+                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764367",
+                                                                  WordCountRequired = 250,
                                                               },
                                                           new TeacherMarkedAssessment()
                                                               {
                                                                   Title = "EMA",
-                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764196"
+                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764196",
+                                                                  WordCountRequired = 500,
                                                               },
                                                       }
                                        }
