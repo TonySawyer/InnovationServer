@@ -40,7 +40,7 @@
                                            TutorDetails = new Contact()
                                                               {
                                                                   Name = "Mrs Tutor",
-                                                                  Email = "mrstutor@open.ac.uk",
+                                                                  Email = "https://msds.open.ac.uk/students/contacttutor.aspx?id=01700207&c=L192",
                                                                   Voip = "mrstutor@open.ac.uk"
                                                               },
                                            Tmas = new List<TeacherMarkedAssessment>()
