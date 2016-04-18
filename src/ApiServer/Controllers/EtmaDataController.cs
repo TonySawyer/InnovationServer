@@ -1,6 +1,8 @@
 ﻿namespace ApiServer.Controllers
 {
+    using System;
     using System.Collections.Generic;
+    using System.Threading;
     using System.Threading.Tasks;
 
     using ApiServer.Models;
@@ -16,6 +18,20 @@
         public EtmaDataController(ILogger<EtmaDataController> logger)
         {
             this.logger = logger;
+        }
+
+        [HttpPost]
+        [Route("Submit")]
+        public IActionResult SubmitTma(string data)
+        {
+            this.logger.LogInformation("Submitting document");
+            if (!string.IsNullOrWhiteSpace(data))
+            {
+                this.logger.LogInformation(data);
+            }
+
+            Thread.Sleep(TimeSpan.FromSeconds(3));
+            return this.Ok();
         }
 
         [HttpGet]
