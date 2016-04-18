@@ -31,7 +31,7 @@
             }
 
             Thread.Sleep(TimeSpan.FromSeconds(3));
-            return this.Ok();
+            return this.Ok(new SubmissionResponse());
         }
 
         [HttpGet]
