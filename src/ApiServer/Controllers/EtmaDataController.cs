@@ -55,7 +55,7 @@
                                            Title = "L192 Beginners French",
                                            TutorDetails = new Contact()
                                                               {
-                                                                  Name = "Mrs Tutor",
+                                                                  Name = "Mrs Barbara Tutor",
                                                                   Email = "https://msds.open.ac.uk/students/contacttutor.aspx?id=01700207&c=L192",
                                                                   Voip = "mrstutor@open.ac.uk"
                                                               },
