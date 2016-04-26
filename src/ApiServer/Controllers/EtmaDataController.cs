@@ -39,7 +39,7 @@
         public IActionResult GetUser()
         {
             this.logger.LogInformation("Getting user information for user <x>");
-            return this.Ok(new User() { Name = "Ian Brown", Pi = "E2762956" });
+            return this.Ok(new User() { Name = "Ian Brown", Pi = "A1234567" });
         }
 
         [HttpGet]
@@ -56,7 +56,7 @@
                                            TutorDetails = new Contact()
                                                               {
                                                                   Name = "Mrs Barbara Tutor",
-                                                                  Email = "https://msds.open.ac.uk/students/contacttutor.aspx?id=01700207&c=L192",
+                                                                  Email = "http://python.open.ac.uk/students/contacttutor.aspx?id=01700207&c=L192",
                                                                   Voip = "mrstutor@open.ac.uk"
                                                               },
                                            Tmas = new List<TeacherMarkedAssessment>()
@@ -64,31 +64,31 @@
                                                           new TeacherMarkedAssessment()
                                                               {
                                                                   Title = "TMA01",
-                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764144",
+                                                                  Url = "http://dummyousite20160426.azurewebsites.net/Home/TMA01",
                                                                   WordCountRequired = 250,
                                                               },
                                                           new TeacherMarkedAssessment()
                                                               {
                                                                   Title = "TMA02",
-                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764174",
+                                                                  Url = "http://dummyousite20160426.azurewebsites.net/Home/TMA02",
                                                                   WordCountRequired = 250,
                                                               },
                                                           new TeacherMarkedAssessment()
                                                               {
                                                                   Title = "TMA03",
-                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764189",
+                                                                  Url = "http://dummyousite20160426.azurewebsites.net/Home/TMA03",
                                                                   WordCountRequired = 250,
                                                               },
                                                           new TeacherMarkedAssessment()
                                                               {
                                                                   Title = "TMA04",
-                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764367",
+                                                                  Url = "http://dummyousite20160426.azurewebsites.net/Home/TMA04",
                                                                   WordCountRequired = 250,
                                                               },
                                                           new TeacherMarkedAssessment()
                                                               {
                                                                   Title = "EMA",
-                                                                  Url = "https://learn2.open.ac.uk/mod/oucontent/view.php?id=764196",
+                                                                  Url = "http://dummyousite20160426.azurewebsites.net/Home/EMA",
                                                                   WordCountRequired = 500,
                                                               },
                                                       }
